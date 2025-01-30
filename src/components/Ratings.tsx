@@ -1,5 +1,14 @@
-const Ratings = ({ count, handleRating, selectedRating }) => {
-  const ratings = Array.from({ length: count }, (_, index) => index + 1);
+type RatingProps = {
+  count: number;
+  handleRating: (ratingValue: number) => void;
+  selectedRating: number | undefined;
+};
+
+const Ratings = ({ count, handleRating, selectedRating }: RatingProps) => {
+  const ratings: number[] = Array.from(
+    { length: count },
+    (_, index) => index + 1,
+  );
 
   return (
     <ol className="mt-6 flex justify-between">

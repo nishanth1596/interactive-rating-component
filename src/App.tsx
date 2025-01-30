@@ -6,11 +6,11 @@ const App = () => {
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
   const [rating, setRating] = useState<number | undefined>(undefined);
 
-  function handleSubmit() {
+  function handleSubmit(): void {
     setIsSubmitted(true);
   }
 
-  function handleRating(ratingValue: number) {
+  function handleRating(ratingValue: number): void {
     setRating(ratingValue);
   }
 

@@ -1,7 +1,13 @@
 import startIcon from "/icon-star.svg";
 import Ratings from "./Ratings";
 
-const Card = ({ onClick, rating, handleRating }) => {
+type CardProps = {
+  onClick: () => void;
+  rating: number | undefined;
+  handleRating: (ratingValue: number) => void;
+};
+
+const Card = ({ onClick, rating, handleRating }: CardProps) => {
   return (
     <article className="from-blackGradient1 to-blackGradient2 mx-6 rounded-2xl bg-radial px-6 pt-6 pb-8 sm:mx-8 sm:max-w-[25.75rem] sm:rounded-[1.875rem] sm:px-8 sm:py-8">
       <div className="bg-darkBlue w-10 rounded-full sm:w-12">
