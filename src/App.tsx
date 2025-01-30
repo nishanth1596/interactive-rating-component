@@ -32,14 +32,16 @@ const App = () => {
           )}
         </section>
       </main>
-      <footer className="hidden">
-        <div>
-          Challenge by{" "}
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-            Frontend Mentor
-          </a>
-          . Coded by <a href="#">Your Name Here</a>.
-        </div>
+      <footer className="absolute bottom-0 left-1/2 w-full -translate-x-1/2 animate-pulse text-center text-gray-800">
+        Challenge by{""}
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a href="https://www.frontendmentor.io/profile/nishanth1596">
+          Nishanth
+        </a>
+        .
       </footer>
     </div>
   );
