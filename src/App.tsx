@@ -37,9 +37,9 @@ const App = () => {
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor
         </a>
-        . Coded by{" "}
+        . Coded with 💜 by{" "}
         <a href="https://www.frontendmentor.io/profile/nishanth1596">
-          Nishanth
+          Nishanth Venkatesan
         </a>
         .
       </footer>
