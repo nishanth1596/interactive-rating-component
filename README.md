@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/nishanth1596/interactive-rating-component)
-- Live Site URL: [Live site URL]()
+- Live Site URL: [Live site URL](https://nishanth-interactive-rating-component.netlify.app/)
 
 ### Features
 
