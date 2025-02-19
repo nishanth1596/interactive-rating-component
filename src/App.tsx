@@ -21,6 +21,7 @@ const App = () => {
       </header>
       <main>
         <section className="flex h-screen w-full items-center justify-center">
+          <h2 className="sr-only">Rating Card</h2>
           {isSubmitted ? (
             <Thankyou rating={rating} />
           ) : (
